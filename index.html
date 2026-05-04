@@ -17,6 +17,37 @@
   <meta name="twitter:description" content="VISION'26 @ CVPR: Vision-based InduStrial InspectiON Across Modalities (Surface, X-ray, 3D &amp; More). Denver, Colorado." />
   <meta name="twitter:image" content="https://vision-workshop-26.github.io/cvpr-2026/assets/imgs/vision_26_logo_share.png" />
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .keynote-grid {
+      display: grid !important;
+      grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+      gap: 2.2rem 2rem !important;
+      align-items: start !important;
+    }
+
+    .keynote-card {
+      text-align: center !important;
+      max-width: 260px !important;
+      width: 100% !important;
+      margin: 0 auto !important;
+    }
+
+    .keynote-title {
+      line-height: 1.55 !important;
+    }
+
+    @media (max-width: 900px) {
+      .keynote-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .keynote-grid {
+        grid-template-columns: 1fr !important;
+      }
+    }
+  </style>
 </head>
 <body>
   <nav>
@@ -73,50 +104,50 @@
     <!-- Keynote Talks -->
     <h3 style="text-align: left; font-size: 1.3rem; font-weight: bold; margin-top: 3rem;">Keynote Talks</h3>
 
-    <div style="display: flex; justify-content: center; flex-wrap: wrap; margin-top: 2rem; gap: 2.2rem;">
-      <div style="text-align: center; max-width: 220px;">
+    <div class="keynote-grid" style="margin-top: 2rem;">
+      <div class="keynote-card">
         <a href="https://salman-h-khan.github.io" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color: inherit;">
           <img src="assets/imgs/SalmanKhan.jpg" alt="Salman Khan" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.10);">
         </a>
         <p style="font-weight: bold; margin-top: 0.9rem; margin-bottom: 0.25rem;">Salman Khan</p>
         <p style="font-size: 0.95rem; color: gray; margin: 0;">Computer Vision Department, MBZUAI</p>
-        <p style="font-size: 0.95rem; color: #555; margin: 0.35rem 0 0; font-style: italic;">"Intelligent Security Screening X-ray"</p>
+        <p class="keynote-title" style="font-size: 0.95rem; color: #555; margin: 0.35rem 0 0; font-style: italic;">"Intelligent Security Screening X-ray"</p>
       </div>
 
-      <div style="text-align: center; max-width: 220px;">
+      <div class="keynote-card">
         <a href="https://www.linkedin.com/in/dancristiandinca/" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color: inherit;">
           <img src="assets/imgs/DanCristianDinca.jpg" alt="Dan Cristian Dinca" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.10);">
         </a>
         <p style="font-weight: bold; margin-top: 0.9rem; margin-bottom: 0.25rem;">Dan Cristian Dinca</p>
         <p style="font-size: 0.95rem; color: gray; margin: 0;">Raspican Systems</p>
-        <p style="font-size: 0.95rem; color: #555; margin: 0.35rem 0 0; font-style: italic;">"Intelligent Security Screening (X-ray)"</p>
+        <p class="keynote-title" style="font-size: 0.95rem; color: #555; margin: 0.35rem 0 0; font-style: italic;">"Intelligent Security Screening (X-ray)"</p>
       </div>
 
-      <div style="text-align: center; max-width: 220px;">
+      <div class="keynote-card">
         <img src="assets/imgs/CharlesABouman.jpg" alt="Charles A. Bouman" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.10);">
         <p style="font-weight: bold; margin-top: 0.9rem; margin-bottom: 0.25rem;">Charles A. Bouman</p>
         <p style="font-size: 0.95rem; color: gray; margin: 0;">Purdue University</p>
       </div>
 
-      <div style="text-align: center; max-width: 220px;">
-        <div style="width: 140px; height: 140px; border-radius: 50%; background: #f3f7ea; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08); display: flex; align-items: center; justify-content: center; margin: 0 auto; font-weight: 700; color: #86bc25;">TBD</div>
-        <p style="font-weight: bold; margin-top: 0.9rem; margin-bottom: 0.25rem;">TBD</p>
-        <p style="font-size: 0.95rem; color: gray; margin: 0;">TBD</p>
-        <p style="font-size: 0.95rem; color: #555; margin: 0.35rem 0 0; font-style: italic;">TBD</p>
+      <div class="keynote-card">
+        <img src="assets/imgs/PaulShahidi.png" alt="Paul Shahidi" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.10);">
+        <p style="font-weight: bold; margin-top: 0.9rem; margin-bottom: 0.25rem;">Paul Shahidi, PhD</p>
+        <p style="font-size: 0.95rem; color: gray; margin: 0;">Anduril Industries</p>
+        <p class="keynote-title" style="font-size: 0.95rem; color: #555; margin: 0.35rem 0 0; font-style: italic;">"Why 90% of Vision Models Fail Their First Production Deployment and what the Next Generation of Industrial Inspection Must Get Right"</p>
       </div>
 
-      <div style="text-align: center; max-width: 220px;">
+      <div class="keynote-card">
         <div style="width: 140px; height: 140px; border-radius: 50%; background: #f3f7ea; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08); display: flex; align-items: center; justify-content: center; margin: 0 auto; font-weight: 700; color: #86bc25;">TBD</div>
         <p style="font-weight: bold; margin-top: 0.9rem; margin-bottom: 0.25rem;">TBD</p>
         <p style="font-size: 0.95rem; color: gray; margin: 0;">TBD</p>
-        <p style="font-size: 0.95rem; color: #555; margin: 0.35rem 0 0; font-style: italic;">TBD</p>
+        <p class="keynote-title" style="font-size: 0.95rem; color: #555; margin: 0.35rem 0 0; font-style: italic;">TBD</p>
       </div>
 
-      <div style="text-align: center; max-width: 220px;">
+      <div class="keynote-card">
         <div style="width: 140px; height: 140px; border-radius: 50%; background: #f3f7ea; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08); display: flex; align-items: center; justify-content: center; margin: 0 auto; font-weight: 700; color: #86bc25;">TBD</div>
         <p style="font-weight: bold; margin-top: 0.9rem; margin-bottom: 0.25rem;">TBD</p>
         <p style="font-size: 0.95rem; color: gray; margin: 0;">TBD</p>
-        <p style="font-size: 0.95rem; color: #555; margin: 0.35rem 0 0; font-style: italic;">TBD</p>
+        <p class="keynote-title" style="font-size: 0.95rem; color: #555; margin: 0.35rem 0 0; font-style: italic;">TBD</p>
       </div>
     </div>
   </section>
@@ -165,7 +196,7 @@
           </tr>
           <tr style="border-top:1px solid #eee;">
             <td style="padding: 1.2rem 1.25rem; font-weight:bold;">10:15 - 10:35</td>
-            <td style="padding: 1.2rem 1.25rem;"><span style="font-size:1.15rem;">Keynote Talk IV: TBD</span></td>
+            <td style="padding: 1.2rem 1.25rem;"><span style="font-size:1.15rem;">Keynote Talk IV: Paul Shahidi, PhD</span></td>
           </tr>
           <tr style="border-top:1px solid #eee;">
             <td style="padding: 1.2rem 1.25rem; font-weight:bold;">10:35 - 10:55</td>

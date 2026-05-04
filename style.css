@@ -141,3 +141,32 @@ nav a.active {
   font-size: 1.8rem;
   margin-top: 0.5rem;
 }
+
+.keynote-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2.2rem 2rem;
+  align-items: start;
+}
+
+.keynote-card {
+  text-align: center;
+  max-width: 260px;
+  margin: 0 auto;
+}
+
+.keynote-title {
+  line-height: 1.55;
+}
+
+@media (max-width: 900px) {
+  .keynote-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .keynote-grid {
+    grid-template-columns: 1fr;
+  }
+}
