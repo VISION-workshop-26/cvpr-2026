@@ -159,47 +159,6 @@ nav a.active {
   line-height: 1.55;
 }
 
-.co-keynote-card {
-  max-width: 340px !important;
-  width: 100% !important;
-}
-
-.co-speaker-headshots {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-  margin-bottom: 0.9rem;
-}
-
-.co-speaker {
-  width: 120px;
-}
-
-.co-speaker img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.10);
-  display: block;
-  margin: 0 auto;
-}
-
-.co-speaker-name {
-  font-weight: bold;
-  margin-top: 0.75rem;
-  margin-bottom: 0.2rem;
-  line-height: 1.35;
-}
-
-.co-keynote-affiliation {
-  font-size: 0.92rem;
-  color: gray;
-  margin: 0 0 0.35rem;
-  line-height: 1.35;
-}
-
 @media (max-width: 900px) {
   .keynote-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
