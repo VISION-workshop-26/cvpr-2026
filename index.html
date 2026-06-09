@@ -36,6 +36,32 @@
       line-height: 1.55 !important;
     }
 
+    .keynote-contact {
+      font-size: 0.88rem !important;
+      line-height: 1.45 !important;
+      color: #555 !important;
+      margin: 0.55rem 0 0 !important;
+    }
+
+    .inline-resource-link {
+      color: #86bc25 !important;
+      font-weight: 600 !important;
+      text-decoration: none !important;
+    }
+
+    .inline-resource-link:hover {
+      text-decoration: underline !important;
+    }
+
+    .slides-callout {
+      background: #f0f7e8;
+      border-left: 4px solid #86bc25;
+      padding: 1rem 1.25rem;
+      margin: 0 0 1.5rem;
+      font-size: 0.98rem;
+      line-height: 1.6;
+    }
+
     @media (max-width: 900px) {
       .keynote-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
@@ -131,10 +157,18 @@
       </div>
 
       <div class="keynote-card">
-        <img src="assets/imgs/PaulShahidi.png" alt="Paul Shahidi" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.10);">
+        <a href="https://paulshahidi.com/" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color: inherit;">
+          <img src="assets/imgs/PaulShahidi.png" alt="Paul Shahidi" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.10);">
+        </a>
         <p style="font-weight: bold; margin-top: 0.9rem; margin-bottom: 0.25rem;">Paul Shahidi, PhD</p>
         <p style="font-size: 0.95rem; color: gray; margin: 0;">Anduril Industries</p>
         <p class="keynote-title" style="font-size: 0.95rem; color: #555; margin: 0.35rem 0 0; font-style: italic;">"Why Most Industrial Vision Systems Fail their First Deployment."</p>
+        <p class="keynote-contact">
+          Interested audience members may contact
+          <a class="inline-resource-link" href="https://paulshahidi.com/" target="_blank" rel="noopener noreferrer">Dr. Shahidi</a>
+          directly at
+          <a class="inline-resource-link" href="mailto:info@paulshahidi.com">info@paulshahidi.com</a>.
+        </p>
       </div>
 
       <div class="keynote-card">
@@ -149,6 +183,10 @@
         <p style="font-weight: bold; margin-top: 0.9rem; margin-bottom: 0.25rem;">Jennifer Vandoni</p>
         <p style="font-size: 0.95rem; color: gray; margin: 0;">Safran</p>
         <p class="keynote-title" style="font-size: 0.95rem; color: #555; margin: 0.35rem 0 0; font-style: italic;">"AI for Non-Destructive Testing and Material Characterization in Aerospace"</p>
+        <p class="keynote-contact">
+          Interested audience members may contact Dr. Vandoni directly to request the slides at
+          <a class="inline-resource-link" href="mailto:jennifer.vandoni@safrangroup.com">jennifer.vandoni@safrangroup.com</a>.
+        </p>
       </div>
     </div>
   </section>
@@ -161,6 +199,11 @@
     </h2>
 
     <h3 style="font-weight: bold; margin-bottom: 1.5rem;">Agenda</h3>
+
+    <div class="slides-callout">
+      Workshop slides are available in the
+      <a class="inline-resource-link" href="https://drive.google.com/drive/folders/1vlmv4ftu4ze9QOFtS3e0WPRZNWZblAUHlNGNmxr7kohGy_ReLrcdj8_rAi3UIFEM4rDo0Vod?usp=drive_link" target="_blank" rel="noopener noreferrer">VISION'26 slides folder</a>.
+    </div>
 
     <div style="border: 1px solid #e5e5e5; border-radius: 8px; overflow: hidden;">
       <table style="width: 100%; border-collapse: collapse; font-size: 1rem; line-height: 1.8; color: #333;">
@@ -177,11 +220,25 @@
           </tr>
           <tr style="border-top:1px solid #eee;">
             <td style="padding: 1.2rem 1.25rem; font-weight:bold;">8:15 - 8:45</td>
-            <td style="padding: 1.2rem 1.25rem;"><span style="font-size:1.15rem;">Invited Talk I: Paul Shahidi - Why Most Industrial Vision Systems Fail their First Deployment.</span></td>
+            <td style="padding: 1.2rem 1.25rem;">
+              <span style="font-size:1.15rem;">Invited Talk I: Paul Shahidi - Why Most Industrial Vision Systems Fail their First Deployment.</span><br>
+              <span style="font-size:0.95rem; color:#555;">
+                Interested audience members may contact
+                <a class="inline-resource-link" href="https://paulshahidi.com/" target="_blank" rel="noopener noreferrer">Dr. Shahidi</a>
+                directly at
+                <a class="inline-resource-link" href="mailto:info@paulshahidi.com">info@paulshahidi.com</a>.
+              </span>
+            </td>
           </tr>
           <tr style="border-top:1px solid #eee;">
             <td style="padding: 1.2rem 1.25rem; font-weight:bold;">8:45 - 9:15</td>
-            <td style="padding: 1.2rem 1.25rem;"><span style="font-size:1.15rem;">Invited Talk II: Jennifer Vandoni - AI for Non-Destructive Testing and Material Characterization in Aerospace</span></td>
+            <td style="padding: 1.2rem 1.25rem;">
+              <span style="font-size:1.15rem;">Invited Talk II: Jennifer Vandoni - AI for Non-Destructive Testing and Material Characterization in Aerospace</span><br>
+              <span style="font-size:0.95rem; color:#555;">
+                Interested audience members may contact Dr. Vandoni directly to request the slides at
+                <a class="inline-resource-link" href="mailto:jennifer.vandoni@safrangroup.com">jennifer.vandoni@safrangroup.com</a>.
+              </span>
+            </td>
           </tr>
           <tr style="border-top:1px solid #eee;">
             <td style="padding: 1.2rem 1.25rem; font-weight:bold;">9:15 - 9:45</td>
